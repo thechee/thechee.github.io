@@ -17,24 +17,26 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
 
   const projectsData = [
     {
-      title: "Get Together",
+      title: "Advanture",
       projectInfo:
-        "My first full stack project. Get Together is a clone of Meetup, allowing users to create groups and events. I built the backend with Express and Sequelize, the frontend with React and Redux and I also used AWS S3 to store images. It was my first introduction to building a web app with full CRUD capabilities. I learned a lot, and I'm proud of the result. I plan to continue working on this project to add more features and improve the design.",
+        "My capstone project at App Academy, Advanture is a clone of Turo. I wanted to push myself to learn more about DOM manipulation and the Google Maps API. I built the backend with Python, Flask, and SQLAlchemy, the frontend with React and Redux and used AWS S3 to store images. I plan to continue working on this project to add more features!",
       technologies: [
         "https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E",
+        "https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54",
         "https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB",
         "https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white",
-        "https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB",
-        "https://img.shields.io/badge/Sequelize-52B0E7?style=for-the-badge&logo=Sequelize&logoColor=white",
+        "https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white",
+        "https://img.shields.io/badge/SQLAlchemy-red?style=for-the-badge&logo=SQLAlchemy&logoColor=white",
         "https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white",
         "https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white",
         "https://img.shields.io/badge/Amazon_S3-569A31?style=for-the-badge&logo=amazon-s3&logoColor=white",
-],
+        "https://img.shields.io/badge/Google_Maps-4285F4?style=for-the-badge&logo=google-maps&logoColor=white"
+      ],
       // industry: "Art & Design",
-      date: "Nov-Jan 2024",
+      date: "Mar 2024",
       url: {
-        link: "https://get-together-gjvw.onrender.com",
-        github: "https://github.com/thechee/get-together"
+        link: "https://advanture.onrender.com/",
+        github: "https://github.com/thechee/advanture-2024"
       },
       // socialLinks: {
       //   facebook: "http://www.facebook.com/",
@@ -43,12 +45,13 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       //   instagram: "http://www.instagram.com/",
       //   mail: "mailto:example@gmail.com",
       // },
-      thumbImage: "images/projects/gettogether-home.png",
+      thumbImage: "images/projects/van-home.png",
       sliderImages: [
-        "images/projects/gettogether-group.png",
-        "images/projects/gettogether-events-list.png",
+        "images/projects/van-list.png",
+        "images/projects/van-details-gif.gif",
+        "images/projects/van-favorites-gif.gif",
       ],
-      // categories: [filters.BRAND],
+      // categories: [filters.PHOTOS],
     },
     {
       title: "LaunchPad",
@@ -87,26 +90,24 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       // categories: [filters.DESIGN],
     },
     {
-      title: "Advanture",
+      title: "Get Together",
       projectInfo:
-        "My capstone project at App Academy, Advanture is a clone of Turo. I wanted to push myself to learn more about DOM manipulation and the Google Maps API. I built the backend with Python, Flask, and SQLAlchemy, the frontend with React and Redux and used AWS S3 to store images. I plan to continue working on this project to add more features!",
+        "My first full stack project. Get Together is a clone of Meetup, allowing users to create groups and events. I built the backend with Express and Sequelize, the frontend with React and Redux and I also used AWS S3 to store images. It was my first introduction to building a web app with full CRUD capabilities. I learned a lot, and I'm proud of the result. I plan to continue working on this project to add more features and improve the design.",
       technologies: [
         "https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E",
-        "https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54",
         "https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB",
         "https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white",
-        "https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white",
-        "https://img.shields.io/badge/SQLAlchemy-red?style=for-the-badge&logo=SQLAlchemy&logoColor=white",
+        "https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB",
+        "https://img.shields.io/badge/Sequelize-52B0E7?style=for-the-badge&logo=Sequelize&logoColor=white",
         "https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white",
         "https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white",
         "https://img.shields.io/badge/Amazon_S3-569A31?style=for-the-badge&logo=amazon-s3&logoColor=white",
-        "https://img.shields.io/badge/Google_Maps-4285F4?style=for-the-badge&logo=google-maps&logoColor=white"
       ],
       // industry: "Art & Design",
-      date: "Mar 2024",
+      date: "Nov-Jan 2024",
       url: {
-        link: "https://advanture.onrender.com/",
-        github: "https://github.com/thechee/advanture-2024"
+        link: "https://get-together-gjvw.onrender.com",
+        github: "https://github.com/thechee/get-together"
       },
       // socialLinks: {
       //   facebook: "http://www.facebook.com/",
@@ -115,14 +116,14 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       //   instagram: "http://www.instagram.com/",
       //   mail: "mailto:example@gmail.com",
       // },
-      thumbImage: "images/projects/van-home.png",
+      thumbImage: "images/projects/gettogether-home.png",
       sliderImages: [
-        "images/projects/van-list.png",
-        "images/projects/van-details-gif.gif",
-        "images/projects/van-favorites-gif.gif",
+        "images/projects/gettogether-group.png",
+        "images/projects/gettogether-events-list.png",
       ],
-      // categories: [filters.PHOTOS],
+      // categories: [filters.BRAND],
     },
+
     // {
     //   title: "Project Title 4",
     //   projectInfo:
